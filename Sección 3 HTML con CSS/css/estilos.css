@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    background-color: gold;
+    padding: 15px;
+    border: 2px solid brown;
+    margin: 20px;
+    text-align: center;
+}

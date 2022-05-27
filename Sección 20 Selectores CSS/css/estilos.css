@@ -13,24 +13,10 @@ div.contenedor {
     text-align: center;
 }
 
-div.contenedor p::selection {
-    background-color: yellow;
-    color: red;
+img {
+    opacity: .5;
 }
 
-div.contenedor p::first-line {
-    font-variant: small-caps;
-    color: red;
-}
-
-div.contenedor p::first-letter {
-    font-size: 1.5em;
-}
-
-div.contenedor p::before {
-    content: "- ";
-}
-
-div.contenedor p::after {
-    content: " -";
+img:hover {
+    opacity: 1;
 }

@@ -119,7 +119,7 @@ if (a % 2 == 0) {
     console.log("Es un número impar");
 }
 */
-
+/*
 // Ejercicio es mayor de edad
 
 let edad = 20,
@@ -130,3 +130,72 @@ if (edad >= adulto) {
 } else {
     console.log("Es menor de edad")
 }
+*/
+/*
+// Operadores lógicos
+// Ej And (&&)
+let a = 5;
+let valMin = 0;
+let valMax = 10;
+
+if (a >= valMin && a <= valMax) {
+    console.log("Dentro de rango")
+} else {
+    console.log("Fuera de rango")
+}
+
+// Ej Or (||)
+
+let vacaciones = true,
+    diaDescanso = false;
+
+if (vacaciones || diaDescanso) {
+    console.log("Padre puede asistir al juego del hijo");
+} else {
+    console.log("El padre está ocupado");
+}
+*/
+/*
+// Operador ternario
+
+let resultado = (1 > 2) ? "Verdadero" : "Falso";
+console.log(resultado);
+
+let numero = 9;
+resultado = (numero % 2 == 0) ? "Número par" : "Número impar";
+console.log(resultado);
+*/
+/*
+// Conversión de String a number
+
+let miNumero = "18x";
+
+let edad = Number(miNumero);
+
+if (isNaN(edad)) {
+    console.log("No es un número")
+} else {
+    if (edad >= 18) {
+        console.log("Puede votar")
+    } else {
+        console.log("Muy joven para votar")
+    }
+}
+
+let edadTernario = (edad >= 18) ? "Puede votar" : "Muy joven para votar";
+console.log(edadTernario);
+*/
+
+let x = 5;
+let y = 10;
+let z = ++x + y--;
+
+console.log(x);
+console.log(y);
+console.log(z);
+
+let resultado = 4 + 5 * 6 / 3;
+console.log(resultado);
+
+resultado = (4 + 5) * 6 / 3;
+console.log(resultado);
